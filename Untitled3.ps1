@@ -1,4 +1,5 @@
 ﻿# Define Kafka Connect (KC) Environments with Credentials
+ change it
 $KC_Environments = @(
     @{ Name = "EKS"; Url = "https://eks-kafka-connect-url"; ClientID = "eks-client"; ClientSecret = "eks-secret"; Resource = "eks-resource" },
     @{ Name = "ECS"; Url = "https://ecs-kafka-connect-url"; ClientID = "ecs-client"; ClientSecret = "ecs-secret"; Resource = "ecs-resource" }
